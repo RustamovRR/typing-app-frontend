@@ -63,7 +63,7 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "**/*.{js,ts,tsx,json}": [
+    "**/*.{jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write --ignore-unknown"
     ]
